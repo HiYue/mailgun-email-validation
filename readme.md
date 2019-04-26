@@ -1,0 +1,1 @@
+# MailGun email validation
