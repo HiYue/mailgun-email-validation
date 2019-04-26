@@ -5,7 +5,6 @@
  * Email: hi@yue.dev
  */
 
-use GuzzleHttp\Exception\GuzzleException;
 use Yue\MailGunEmailValidation\EmailValidator;
 
 class ValidatorTest extends \PHPUnit\Framework\TestCase
