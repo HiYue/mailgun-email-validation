@@ -21,9 +21,14 @@ use Yue\MailGunEmailValidation\EmailValidator;
 
 // Init the configurations
 $config = [
-    'public_key'    =>'your_public_validation_key', // Required: Public validation key, in your Mailgun settings. 
-    'private_key'   =>'your_private_api_key',       // Required: Private API key, in your Mailgun settings. 
-    'version'       =>EmailValidator::V3,           // Optional: By default, we will use V4 version API
+    // Required: Public validation key, in your Mailgun settings.
+    'public_key'    =>'your_public_validation_key', 
+    
+    // Required: Private API key, in your Mailgun settings.
+    'private_key'   =>'your_private_api_key',    
+    
+    // Optional: By default, we will use V4 version API    
+    'version'       =>EmailValidator::V3,           
 ];
 
 // Get validator instance
